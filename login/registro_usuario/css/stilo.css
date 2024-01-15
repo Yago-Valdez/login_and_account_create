@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#si {
+    background-image: url(../img/fondo.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
+
+div:hover {
+    cursor: url(hoja.png);
+}
+
+#cont {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    position: absolute;
+}
+#entrada1 {
+    position: absolute;
+    top: 25.7%;
+    left:13%;
+    width: 35%;
+}
+#entrada5 {
+    position: absolute;
+    top: 25.7%;
+    left:50%;
+    width: 35%;
+}
+#entrada2 {
+    position: absolute;
+    top: 41.7%;
+    left:13%;
+}
+
+#entrada3{
+	position: absolute;
+	top:57.7%;
+	left:13%;
+}
+#entrada4{
+    position:absolute;
+    top:73.7%;
+	left:13%;
+}
+.entrada {
+    width: 70%;
+    height: 8%;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-color: #666;
+    font-size: 125%;
+    font-family: Century Gothic;
+    line-height: 20px;
+    outline: none;
+
+}
+
+#boton1 {
+    position: absolute;
+    top: 86%;
+    left: 55%;
+    font-family: Century Gothic;
+    font-size: 125%;
+    width: 30%;
+    height: 10%;
+    border-radius: 20px;
+    border: 0;
+    background-color: #C3A5C7;
+}
+
+#a1 {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-family: Century Gothic;
+    font-size:100%;
+    border: 0;
+}
+
+a:hover {
+    -webkit-animation: swing 1.5s ease;
+    animation: swing 1.5s ease;
+}
+section {
+    position: absolute;
+    opacity: 0.988;
+    top: 20%;
+    left: 32.5%;
+    width: 35%;
+    height: 63%;
+    background: white;
+    border-radius: 10px;
+}
+
+#text {
+    position: absolute;
+    top: 10%;
+    left:10%;
+    font-family: Century Gothic;
+    font-size: 200%;
+}
+
+input:hover {
+    animation-iteration-count: 1;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+#xd{
+    width: 100%;
+    height: 90vh;
+}
+@media screen and ( (max-width: 1000px) or (max-height: 650px))  {
+	section {
+        position: relative;
+        opacity: 0.8;
+        left: 0%;
+        top:0%;
+        width: 100%;
+        height: 100%;
+        background: white;
+        border-radius: 0px;
+        color: black;
+        font-size: 250%;
+    }    
+    #xd{
+        width: 100%;
+        height: 100vh;
+    }
+    #boton1 {
+        position: absolute;
+        top: 82%;
+        left: 10%;
+        font-family: Century Gothic;
+        font-size: 135%;
+        width: 80%;
+        height: 15%;
+        border-radius: 20px;
+        border: 0;
+        background-color: #9FC3C3;
+    }
+    #entrada1 {
+        width: 70%;
+        top: 22%;
+        
+    }
+    #entrada2{
+        top: 46%;
+    }
+    #entrada5 {
+        left: 13%;
+        width: 70%;
+        top: 34%;
+        
+    } 
+    #entrada4 {
+        top: 70%;
+        
+    } 
+
+}
+@media screen and ( (max-width: 1200px) and (max-height: 1000px))  {
+	section {
+        position: relative;
+        opacity: 0.856;
+        left: 0%;
+        top:0%;
+        width: 100%;
+        height: 100%;
+        background: white;
+        border-radius: 0px;
+        color: black;
+        font-size: 100%;
+    }    
+    #xd{
+        width: 100%;
+        height: 100vh;
+    }
+    #boton1 {
+        position: absolute;
+        top: 83%;
+        left: 10%;
+        font-family: Century Gothic;
+        font-size: 135%;
+        width: 78%;
+        height: 15%;
+        border-radius: 20px;
+        border: 0;
+        background-color: #9FC3C3;
+    }
+    .entrada {
+        width: 70%;
+        height: 8%;
+        border-color: #666;
+        font-size: 125%;
+        line-height: 20px;
+        outline: none;
+    }   
+    #entrada1 {
+        width: 70%;
+        top: 22%;
+        
+    }
+    #entrada2{
+        top: 46%;
+    }
+    #entrada5 {
+        left: 13%;
+        width: 70%;
+        top: 34%;
+        
+    } 
+    #entrada4 {
+        top: 70%;
+        
+    } 
+}
+@-webkit-keyframes swing {
+    15% {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30% {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50% {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65% {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80% {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes swing {
+    15% {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30% {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50% {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65% {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80% {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
